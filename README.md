@@ -29,7 +29,7 @@
 
     -Specify an instance method named `describe` that accepts a String 'details' parameters and returns a string
 
-    -Make your *Customer* class implement the *Sentence* interface
+    -Make your *Customer* class implement the *Describable* interface
 
     -The implementation of the `describe` method on the Customer class should return something like the following message: 
       ```
