@@ -14,25 +14,26 @@
 3. Create a public static method called `even` which takes in an int[] and souts out the even numbers
 
 
-4. Create a package called **carShop**. Inside **carShop** create a new class called **Car**. Make instance properties that can't be accessed outside **Car**,
-   these properties should be Strings named `model`, `make`, `color`, and an integer named `year`. Create a constructor that takes in 3 strings and one integer
-   that sets the `model`, `make`, `color`, and `year`. Write getters and setters for each property.(Remember we can generate these by right clicking and choosing Getters and Setters)
+4. Create a package called **carShop**. Inside **carShop** create a new class called **Car**. Make instance fields that can't be accessed outside **Car**.
+   These fields should be of type `String` named `model`, `make`, `color`, and an `int` named `year`. Create a constructor that sets the `model`, `make`, `color`, and `year`. Write getters and setters for each property.(Remember we can generate these by right clicking -> 'Generate' -> Getters and Setters)
    
 
-5. Inside **carShop** create another class called **Customer** and make instance properties that can't be accessed outside **Customer**,
-   these properties should be string called `firstName` and `lastName`. Create a constructor that takes in two strings that sets 
-   `firstName` and `lastName`. Write getters and setters for each property. Make the **Car** class inherit from **Customer**.
+5. Inside **carShop** create another class called **Customer** and make instance fields that can't be accessed outside **Customer**,
+   these fields should be string called `firstName` and `lastName`. Create a constructor that sets 
+   `firstName` and `lastName`. Write getters and setters for each property.
    
 
 6. Create an interface named **Sentence**
 
-    -Specify an instance method named `sayMake` that accepts no arguments and returns a string
+    -Specify an instance method named `describe` that accepts a String 'details' parameters and returns a string
 
-    -Make your *Car* class implement the *Sentence* interface
+    -Make your *Customer* class implement the *Sentence* interface
 
-    -The implementation of the `sayMake` method on the Car class should return the following message: 
+    -The implementation of the `describe` method on the Customer class should return something like the following message: 
       ```
       Hey there firstName lastName, it looks like your color, year, make, model is ready to go!`
       ```
+7. Create a DealershipApp class, which will contain your main method. 
+    -in main(), you will make new Customer and Car objects, then sout out the return of Customer's describe() implementation.
     
 
