@@ -8,7 +8,7 @@
 1b. Make a circumference() method which returns a `double` (the circumference). Overload it for `int` and `double` parameter types.
 
 2. Create a public static method called `total` with two `double` parameters named 'bill' and 'tipPercentage'. 
-   - Find out what the final bill will come out to(Equation: bill + ((tipPercentage / 100) * bill) = total)
+   - Return the final bill (`double`), including tip. (Equation: bill + ((tipPercentage / 100) * bill) = total)
 
 
 3. Create a public static method called `even`, that take in an array of `Integers`. Return all the even numbers from the array.
