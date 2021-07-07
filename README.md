@@ -11,7 +11,7 @@
    - Return the final bill (`double`), including tip. (Equation: bill + ((tipPercentage / 100) * bill) = total)
 
 
-3. Create a public static method called `even`, that take in an array of `Integers`. Return all the even numbers from the array.
+3. Create a public static method called `even` and returns an int[], that take in an array of `Integers`. Return all the even numbers from the array as a new int[].
 
 
 4. Create a package called **carShop**. Inside **carShop** create a new class called **Car**. Make instance properties that can't be accessed outside **Car**,
