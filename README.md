@@ -2,10 +2,10 @@
 
 ## Problems
 
-1a. Make a class called **review** and create a public static method that takes in a `double` called `radius`, so that you can find the circumference of a circle.
+1a. Make a class called **Review** and create a field `radius` with getter and setter methods, so that you can find the circumference of a circle.
    (Circumference Equation: C = 2πr)
    
-1b. make the circumference method work with `integers` and `doubles` by using method overloading
+1b. Make a circumference() method which returns a `double` (the circumference). Overload it for `int` and `double` parameter types.
 
 2. Create a public static method called `total` that takes in two arguments, these arguments should be `doubles`. 
    One of these `doubles` should be the `bill`, and the other should be the `tip percentage`. Find out what the final bill will come out to(Equation: bill * 1.tip% = total)
