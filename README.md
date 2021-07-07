@@ -2,7 +2,9 @@
 
 ## Problems
 
-1a. Make a class called **Review** and create a field `radius` with getter and setter methods, so that you can find the circumference of a circle.
+0. Create a class named **Review**. This will be where your main method resides for you to test the following exercises.
+
+1a. Make a class called **PracticeCircle** and create a field `radius` with getter and setter methods, so that you can find the circumference of a circle.
    (Circumference Equation: C = 2πr)
    
 1b. Make a circumference() method which returns a `double` (the circumference). Overload it for `int` and `double` parameter types.
@@ -23,7 +25,7 @@
    `firstName` and `lastName`. Write getters and setters for each property.
    
 
-6. Create an interface named **Sentence**
+6. Create an interface named **Describable**
 
     -Specify an instance method named `describe` that accepts a String 'details' parameters and returns a string
 
@@ -33,7 +35,7 @@
       ```
       Hey there firstName lastName, it looks like your color, year, make, model is ready to go!`
       ```
-7. Create a DealershipApp class, which will contain your main method. 
+7. Create a **DealershipApp** class, which will contain your main method. **This** is where you test the following, not in **Review**
     -in main(), you will make new Customer and Car objects, then sout out the return of Customer's describe() implementation.
     
 
